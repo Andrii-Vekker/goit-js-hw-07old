@@ -24,3 +24,14 @@ gallery.insertAdjacentHTML("afterbegin", images.map(({ url, alt }) =>
 // images.forEach(element => {
 //     gallery.insertAdjacentHTML('afterbegin', `<li><img class = "img" width = 300px src = ${element.url} alt = ${element.alt}></li>`)
 // });
+
+// const galleryRef = document.querySelector("#gallery");
+// const imagesList = document.createElement("li");
+// const img1 = document.createElement("img");
+// const img2 = document.createElement("img");
+// const img3 = document.createElement("img");
+// img1.src = images[0].url;
+// img2.src = images[1].url;
+// img3.src = images[2].url;
+// imagesList.append(img1, img2, img3);
+// galleryRef.insertAdjacentElement("afterbegin", imagesList);
