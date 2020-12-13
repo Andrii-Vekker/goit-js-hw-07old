@@ -19,7 +19,7 @@ const gallery = document.querySelector("#gallery");
 
 gallery.insertAdjacentHTML("afterbegin", images.map(({ url, alt }) =>
   `<li><img height="120" width='200' src="${url}" alt="${alt}"></li>`).join(''));
-gallery.classList.add("gallery");
+//gallery.classList.add("gallery");
 
 // images.forEach(element => {
 //     gallery.insertAdjacentHTML('afterbegin', `<li><img class = "img" width = 300px src = ${element.url} alt = ${element.alt}></li>`)
